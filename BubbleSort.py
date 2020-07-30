@@ -16,7 +16,7 @@ def bubble_sort_swaps(nums): #n = 4
           
   return count
   
-print(bubble_sort_swaps[6,4,3,2])
+
 #worst case its in decending order
 # [6,4,3,2] n = 4
 # [4,6,3,2] 1 swap 
