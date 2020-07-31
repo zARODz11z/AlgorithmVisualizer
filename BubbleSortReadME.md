@@ -1,4 +1,4 @@
-#### Bubble Sort easy but naive way of sorting data. Take a look at the example 
+#### Bubble Sort: easy but naive way of sorting data. Take a look at the example 
 
     Given [5,2,3,7] we want it in accending order
     
@@ -73,6 +73,8 @@ Say were Given arr=[7,5,3] arr has 3 elements so well say n=3
 
  We could optimize this slightly by not looking at the last element since that one should be sorted by the time we get there but Its not much faster than O(n^2) and other algorithms are much better.
 
+ This algorithm takes O(1) space because no matter how big the input is. The space taken up will always be constant and not grow as the input does.
+
 
 
 
@@ -80,4 +82,3 @@ Say were Given arr=[7,5,3] arr has 3 elements so well say n=3
       
        
 
-"""

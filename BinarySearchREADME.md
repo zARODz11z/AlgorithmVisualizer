@@ -1,4 +1,4 @@
-#### Binary search is a faster 🏃💨 way of searching for something. There are a few conditions though, the data structure has to be sorted. Take a look at the example 
+#### Binary search: A faster 🏃💨 way of searching for something. There are a few conditions though, the data structure has to be sorted. Take a look at the example 
 
     Given [2,3,5,6,8,10,12,15,19] Target = 15
     index: 0 1 2 3 4  5  6  7  8
@@ -55,6 +55,7 @@ Say were Given arr=[2,3,4,5,6,7,8,9] with target = -2
 
  "This algorithm runs in O(log(n)) with respect to the input size n."
 
+ This algorithm takes O(1) space because no matter how big the input is. The space taken up will always be constant and not grow as the input does.
 
 
 
