@@ -8,7 +8,7 @@
 def binarySearch(numsList,target):
   low = 0
   high = len(numsList)-1
-  while low < high:
+  while low <= high:
     mid = low + ((high-low)//2)
     if numsList[mid] == target:
       return True

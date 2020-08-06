@@ -25,28 +25,28 @@
 *Big O Notation describes how your algorithm scales when your input size becomes huge.
 *Your main concern is the worst case scenario. In the worst case scenario how will your algorithm grow in the number of steps(time) and space used.
 
-Say were Given arr=[2,3,4,5,6,7,8,9] with target = -2
-**arr has 8 elements so well say n=8**
-**1st iteration**
-[2,3,4,5,6,7,8,9] Target = -2
- 0 1 2 3 4 5 6 7 indices
- L     M       H 
- mid value=5 and 5 > -2 so disregard right side by reassigning the High pointer to mid-1
+    Say were Given arr=[2,3,4,5,6,7,8,9] with target = -2
+    **arr has 8 elements so well say n=8**
+    **1st iteration**
+    [2,3,4,5,6,7,8,9] Target = -2
+     0 1 2 3 4 5 6 7 indices
+     L     M       H 
+    mid value=5 and 5 > -2 so disregard right side by reassigning the High pointer to mid-1
 
-**2nd iteration**
-[2,3,4,5,6,7,8,9] Target = -2
- 0 1 2 3 4 5 6 7 indices
- L M H 
- mid value=3 and 3 > -2 so disregard right side by reassigning the High pointer to mid-1
+    **2nd iteration**
+    [2,3,4,5,6,7,8,9] Target = -2
+     0 1 2 3 4 5 6 7 indices
+     L M H 
+    mid value=3 and 3 > -2 so disregard right side by reassigning the High pointer to mid-1
 
-**3rd iteration**
-[2,3,4,5,6,7,8,9] Target = -2
- 0 1 2 3 4 5 6 7 indices
- L
- H
- M
+    **3rd iteration**
+    [2,3,4,5,6,7,8,9] Target = -2
+     0 1 2 3 4 5 6 7 indices
+     L
+     H
+     M
 
- mid value=2 and 2 > -2 and we've reached the end of the list since Low=High
+    mid value=2 and 2 > -2 and we've reached the end of the list since Low=High
 
  In this case We did 3 iterations and did not find our element.
  So given N=8 elements we took 3 iterations in the worst case scenario of the element not being in the list. 
